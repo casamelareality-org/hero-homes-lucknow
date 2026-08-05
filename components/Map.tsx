@@ -10,7 +10,7 @@ export default function Map() {
         <div className="overflow-hidden rounded-3xl shadow-xl">
 
           <iframe
-            src="https://www.google.com/maps?q=Kanpur+Road+Lucknow&output=embed"
+           src="https://www.google.com/maps?q=26.676436,80.816037&z=16&output=embed"
             width="100%"
             height="500"
             loading="lazy"
