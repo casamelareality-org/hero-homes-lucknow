@@ -16,19 +16,19 @@ export default function Navbar() {
   ];
 
   return (
-<header className="fixed top-0 left-0 z-50 w-full bg-transparent">
+<header className="absolute top-0 left-0 z-50 w-full bg-transparent">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
 <Link href="#" className="flex items-center">
   <Image
     src="/images/logo.png"
     alt="Hero Homes"
-    width={170}
-    height={55}
+    width={150}
+    height={45}
     priority
-    className="h-auto w-[140px] md:w-[170px]"
-  />
-</Link>
+    className="h-[38px] w-auto object-contain md:h-[45px]"
+    />
+   </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden gap-8 text-white md:flex">
