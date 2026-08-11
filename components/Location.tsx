@@ -1,11 +1,10 @@
 export default function Location() {
   const places = [
-    { title: "✈️ Chaudhary Charan Singh Airport", time: "10 Min" },
-    { title: "🚇 Amausi Metro Station", time: "8 Min" },
-    { title: "🛣️ Shaheed Path", time: "5 Min" },
-    { title: "🏥 Medanta Hospital", time: "20 Min" },
-    { title: "🏫 DPS Lucknow", time: "15 Min" },
-    { title: "🛍️ Lulu Mall", time: "25 Min" },
+    { title: "✈️ Chaudhary Charan Singh Airport", distance: "12 km" },
+    { title: "🚇 Amausi Metro Station", distance: "13 km" },
+    { title: "🛣️ Shaheed Path", distance: "15 km" },
+    { title: "🏥 Medanta Hospital", time: "30 Min" },
+   { title: "🛍️ Lulu Mall", time: "25 Min" },
   ];
 
   return (
